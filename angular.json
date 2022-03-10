@@ -6,9 +6,9 @@
     "helpdesk": {
       "projectType": "application",
       "schematics": {
-        "@schematics/angular:component": {
+        "@schematics/angular:false": {
           "inlineTemplate": true,
-          "inlineStyle": true,
+          "inlineStyle": false,
           "skipTests": true
         },
         "@schematics/angular:class": {
